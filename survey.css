@@ -1,0 +1,95 @@
+*{
+  font-size: 10px;
+  font-family: BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#title{
+  font-weight: 750;
+  font-size: 2.5em;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#description{
+  font-size: 1.5em;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#img{
+  background-image: url(https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg);
+   background-position: center; 
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   margin: auto;
+}
+
+form{
+  background-image: url(https://image.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg);
+   background-position: center;
+   background-size: cover; 
+   width: 100%;
+}
+label,p{
+  display: block;
+  padding: 10px 50px 10px ;
+  font-size: 1.5em;
+}
+.clue{
+  font-size: 1.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+    border-radius: 5px;
+    margin-left: 50px;
+    font-size: 15px;
+    line-height: 40px;    
+    padding-left: 15px;
+}
+
+#recommend{
+	margin-top: 0px;
+}
+
+#improve,#role,#recommend{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#comment{
+	margin-bottom: 5px;
+}
+
+.form-control {
+  display: block;
+  color: grey;
+  width: 90%;
+  height: 40px;
+  flex-grow: 1;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-textarea {
+  width: 90%;
+  padding: 0.625rem;
+}
+
+.submit-button {
+  display: block;
+  width: 90%;
+  background: green;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form_Sunk{
+    display: grid;
+    grid-template-columns: 100%;  
+    align-items: center;
+    margin-bottom: 15px;
+}
+

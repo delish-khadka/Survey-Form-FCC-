@@ -1,0 +1,196 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  
+  <body>
+    <div id="img">
+      <h1 id="title">Farmers Survey</h1>
+      <p id="description">Please fill the below survey form</p>
+
+      <form id="survey-form">
+        <div id="form_Sunk">
+        <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
+        </div id="form_Sunk">
+
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+
+        <label id="number-label" for="number">Age
+          <span class="clue">(optional)</span>
+        </label>
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Age"
+        />
+
+         <p id="role">What crop are you cultivating this season?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select one</option>
+          <option value="Rice">Rice</option>
+          <option value="wheat">Wheat</option>
+          <option value="maize">Maize</option>
+          <option value="potato">Potato</option>
+          <option value="other">Other</option>
+        </select>
+
+        <p id="recommend">Would you recommend to cultivate the same crop to your partners?</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Definitely</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+          />Maybe</label
+        >
+
+        <label
+          ><input
+            name="user-recommend"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+          />Not sure</label
+        >
+
+        <p id="improve">
+          What would you like to see improved?
+          <span class="clue">(Check all that apply)</span>
+        </p>
+
+        <label
+          ><input
+            name="prefer"
+            value="yielding capacity"
+            type="checkbox"
+            class="input-checkbox"
+          />Yielding capacity</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="disease resistance"
+            type="checkbox"
+            class="input-checkbox"
+          />Disease resistance</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="automation"
+            type="checkbox"
+            class="input-checkbox"
+          />Automation</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="fertilizers"
+            type="checkbox"
+            class="input-checkbox"
+          />Fertilizers</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="guidelines"
+            type="checkbox"
+            class="input-checkbox"
+          />Guidelines</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="state budget"
+            type="checkbox"
+            class="input-checkbox"
+          />State budget</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="gardening tools"
+            type="checkbox"
+            class="input-checkbox"
+          />Gardening tools</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="farmer-meetups"
+            type="checkbox"
+            class="input-checkbox"
+          />Farmer Meetups</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="wiki"
+            type="checkbox"
+            class="input-checkbox"
+          />Wiki</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="forum"
+            type="checkbox"
+            class="input-checkbox"
+          />Forum</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="additional-fertilizers"
+            type="checkbox"
+            class="input-checkbox"
+          />Additional Fertilizers</label
+        >
+
+        <p id="comment">Any comments or suggestions?</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
